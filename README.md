@@ -17,22 +17,22 @@ Instalación de KVM con los comandos:
 Luego de ejecutar esos comando puede uno agregar usuarios a los grupos kvm y libvirt.
 
 A continuación se detallan los pasos para crear una dispositivo de almacenamiento virtual:
-1. click derecho en localhost
-2. detalles
-3. almacenamiento
-4. boton con el signo +
-5. colocar el nombre de la maquina virtual "maquina virtual"
-6. tipo dir: Directorio....
-7. continuar, explroar y seleccionar nuestra partición "/datos" y finalizar.
+* click derecho en localhost
+* detalles
+* almacenamiento
+* boton con el signo +
+* colocar el nombre de la maquina virtual "maquina virtual"
+* tipo dir: Directorio....
+* continuar, explroar y seleccionar nuestra partición "/datos" y finalizar.
 
 Y ahora creamos la maquina virtual:
-1. click en maquinas virtuales
-2. nuevo volumen
-3. nombre "lvm1" de 3Gb y en formato qcow2, finalizamos y cerramos.
-4. Vamos a archivo, nueva maquina virtual
-5. desde imagen ISO, tipo de SO Debian wheezy
-6. memoria ram de 1024 Mb y 1 CPU, buscamos el disco lvm1 creado anteriormente
-7. red virtual NAT por defecto. y finalizamos.
+* click en maquinas virtuales
+* nuevo volumen
+* nombre "lvm1" de 3Gb y en formato qcow2, finalizamos y cerramos.
+* Vamos a archivo, nueva maquina virtual
+* desde imagen ISO, tipo de SO Debian wheezy
+* memoria ram de 1024 Mb y 1 CPU, buscamos el disco lvm1 creado anteriormente
+* red virtual NAT por defecto. y finalizamos.
 
 ## Configuración de tarjeta de red y manipulación de volumenes
 >Ya con la maquina virtual creada se procedió a formatear un nuevo Sistema Operativo dentro de la maquina, mismo que se utlizó para cpnfigurar la red con **IPs estaticas** y **dinamicas DHCP**
